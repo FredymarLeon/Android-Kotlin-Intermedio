@@ -49,6 +49,7 @@
         tools:text="Navigate between destinations using the Safe Args Gradle plugin. This plugin generates simple object and builder classes that enable type-safenavigation and argument passing between destinations." />
 
     <ProgressBar
+        android:id="@+id/progressBarDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:indeterminateTint="@color/gold"
