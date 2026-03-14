@@ -8,7 +8,7 @@ import javax.inject.Inject
 
 class RepositoryImpl @Inject constructor(private val apiService: HoroscopeApiService): Repository {
     override suspend fun getPrediction(sign: String): PredictionModel? {
-        runCatching { apiService.getHoroscope(sign) }
+        runCatching { apiService.getHoroscope(sign.lowercase()) }
             .onSuccess { return it.toDomain() }
             .onFailure { Log.i("Fredymar", "Ha ocurrido un error ${it.message}")}
         return null
