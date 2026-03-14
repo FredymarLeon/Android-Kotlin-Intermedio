@@ -54,20 +54,20 @@ El roadmap se actualizará a medida que avance en mi PDI.
 
 - [x] Kotlin básico
 - [x] Activities y Fragments
-- [ ] RecyclerView
+- [X] RecyclerView
 - [x] Arquitectura MVVM (nivel básico)
 
 ### 🔹 En Progreso
 
-- [ ] Manejo avanzado de estados con ViewModel
-- [ ] Consumo de APIs (Retrofit)
-- [ ] Corrutinas
-- [ ] Manejo de errores y estados de UI
+- [X] Manejo avanzado de estados con ViewModel
+- [X] Consumo de APIs (Retrofit)
+- [X] Corrutinas
+- [X] Manejo de errores y estados de UI
 
 ### 🔹 Próximos Pasos
 
-- [ ] Clean Architecture
-- [ ] Inyección de dependencias (Hilt)
+- [X] Clean Architecture
+- [X] Inyección de dependencias (Hilt)
 - [ ] Testing (Unit Tests)
 
 ---
