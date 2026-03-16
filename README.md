@@ -68,7 +68,7 @@ El roadmap se actualizará a medida que avance en mi PDI.
 
 - [X] Clean Architecture
 - [X] Inyección de dependencias (Hilt)
-- [ ] Testing (Unit Tests)
+- [x] Testing (Unit Tests)
 
 ---
 
